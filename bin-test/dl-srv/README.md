@@ -8,8 +8,11 @@
 <hr>
 
 **Instalação:** [Abrir Docs](/docs/setup)
+
 **Execução:** [Abrir Docs](/docs/execucao)
+
 **Reset:** [Abrir Docs](/docs/reset)
+
 **Api:** [Abrir Docs](/docs/api)
 
 ### Instalação :
