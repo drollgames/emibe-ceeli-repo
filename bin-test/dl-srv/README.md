@@ -7,7 +7,7 @@
 
 <hr>
 
-### Instalação 
+### Instalação :
 
 * 1 - Baixe o instalador:
 
@@ -24,9 +24,16 @@ _Todo processo de instalação será feito automaticamente_
 
 <hr> 
 
-###
+### Execução:
 
-### Reinstalação
+* O _arquivo de execução_ se inicia o servidor e se atualizar automaticamente ao ser executado.
+
+```sh
+./start```
+
+<hr>
+
+### Reinstalação:
 
 * Para _reinstalar_ o servidor, basta digitar o comando abaixo, isso fará que o servidor se auto reinstalar
 
