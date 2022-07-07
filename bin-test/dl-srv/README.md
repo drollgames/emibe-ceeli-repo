@@ -40,3 +40,17 @@ _Todo processo de instalação será feito automaticamente_
 ```sh
 sudo sh bin/reset
 ```
+
+<hr>
+
+### Api:
+
+`.port` - define a porta do servidor principal _(Ex: 80)_
+
+```json
+{
+[...]
+    "port": 80
+[...]
+}
+```
