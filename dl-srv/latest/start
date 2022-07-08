@@ -1,0 +1,4 @@
+echo "Atualizando Instalador..."
+wget repo.mbcl.ml/dl-srv/latest/start
+echo "Iniciando app"
+node app.js 
