@@ -1,0 +1,32 @@
+# Repo: repo.mbcl.ml/dl-srv
+# @: Latest
+#: {...}
+
+# [Installer Update]:
+echo "Atualizado instalador..."
+sleep 0.5
+wget repo.mbcl.ml/dl-srv/bin/latest/installer 
+
+
+# [Instalando Servidor]
+
+echo "[DlSrv]: instalando servidor..."
+slep 0.5
+echo "wget repo.mbcl.ml/dl-srv/latest/main.zip" >> latest-build #[dl-srv:at{latest}]
+sh latest-build
+rm latest-build
+
+
+# [Unpack Run]:
+echo "Unpacking..."
+echo "unzip main.zip && rm main.zip" >> unpack
+sh unpack
+rm unpack
+echo "[...]"
+sleep 1 
+
+# [Get Starter]
+
+echo "Baixando Inicializador"
+wget repo.mbcl.ml/dl-srv/latest/start
+npm install --no-bin-links
